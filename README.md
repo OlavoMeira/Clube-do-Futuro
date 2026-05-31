@@ -1,3 +1,3 @@
 # Clube-do-Futuro
 
-- A unica forma  de aprender é praticando, Divirta-se.
+- A única forma de aprender é praticando. Divirta-se!
