@@ -36,10 +36,12 @@ O repositório está dividido por pastas para facilitar a navegação dos alunos
 
 Se você é aluno do Clube do Futuro, siga estes passos para clonar o projeto e rodar na sua máquina:
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/Clube-do-Futuro.git](https://github.com/SEU_USUARIO/Clube-do-Futuro.git)
+* 🔗 **Acesse o repositório:** [Clique aqui para abrir o Clube do Futuro no GitHub](https://github.com/SEU_USUARIO/Clube-do-Futuro)
+* 💻 **Para clonar via terminal:**
 
+```bash
+git clone https://github.com/OlavoMeira/Clube-do-Futuro.git
+```
 ## Clube-do-Futuro
 
 - A única forma de aprender é praticando. Divirta-se!
