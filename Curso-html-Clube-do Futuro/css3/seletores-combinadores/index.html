@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>irmãos</title>
+</head>
+<body>
+
+    <!--
+    
+    1- Combinador decendente (espaço)
+    2- Combinador Filho (>)
+    3- Combinador irmão adjacente (+)
+    4- Combinador irmão em geral (~)
+    
+    -->
+
+    <div>
+        <p id="paragrafo"> paragrafo 1 dentro da div </p>
+        <p class="paragrafo2"> paragrafo 2 dentro da div </p>
+        <span>
+            <p>paragrafo 3 dentro da div dentro do span </p>
+        </span>
+    </div>
+
+    <p>paragrafo 4 fora da div</p>
+    <p>paragrafo 5 fora da div </p>
+    
+
+
+    <!--
+        <div>
+
+        <ul>
+            <li class="fundo-verde" id="lista-01">
+                <div>Item1</div>
+                <ol ol id="sublista-01">
+                    <li> Subitem A</li>
+                    <li> Subitem B</li>
+                </ol >
+            </li>
+            <br>
+            <li class=" fundo-verde" id="lista-02">
+                <div>Item2</div>
+                <ol id="sublista-02">
+                    <li> Subitem A</li>
+                    <li> Subitem B</li>
+                </ol>
+            </li>
+            <br>
+            <li class="fundo-azul" id="lista-03">
+                <div>Item3</div>
+                <ol id="sublista-03">
+                    <li> Subitem A</li>
+                    <li> Subitem B</li>
+                </ol>
+            </li>
+            
+        </ul>
+       
+    </div>
+    -->
+    
+
+    <style>
+
+        div p {
+            background-color: lightgreen;
+        }
+
+        div ~ p  {
+            color: red;
+        }
+    </style>
+</body>
+</html>
